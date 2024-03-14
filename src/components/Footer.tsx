@@ -7,7 +7,6 @@ import LinkedinSvg from "/linkedin_svg.svg";
 import GmailSvg from "/gmail_svg.svg";
 
 export default function Footer() {
-  const IconSize = 16;
   return (
     <footer
       id="contact"
