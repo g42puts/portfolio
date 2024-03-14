@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-teste {
+  background: rgb(3, 1, 40);
+  background: radial-gradient(
+    circle,
+    rgba(3, 1, 40, 0.8379726890756303) 23%,
+    rgba(0, 9, 99, 0.8379726890756303) 90%
+  );
+}
