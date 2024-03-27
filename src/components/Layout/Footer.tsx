@@ -22,6 +22,8 @@ export default function Footer() {
             aria-label="LinkedIn"
             aria-required
             role="link"
+            rel="noopener noreferrer"
+            target="_blank"
             href="https://www.linkedin.com/in/gilmar-jose/"
             className="flex flex-row gap-2 transform transition duration-500 hover:scale-[120%]"
           >
@@ -32,6 +34,8 @@ export default function Footer() {
             aria-label="Instagram"
             aria-required
             role="link"
+            rel="noopener noreferrer"
+            target="_blank"
             href="https://www.instagram.com/gilmarneo/"
             className="flex flex-row gap-2 transform transition duration-500 hover:scale-[120%]"
           >
@@ -42,6 +46,8 @@ export default function Footer() {
             aria-label="Github"
             aria-required
             role="link"
+            rel="noopener noreferrer"
+            target="_blank"
             href="https://www.github.com/g42puts/"
             className="flex flex-row gap-2 transform transition duration-500 hover:scale-[120%]"
           >
@@ -52,6 +58,8 @@ export default function Footer() {
             aria-label="Gmail"
             aria-required
             role="link"
+            rel="noopener noreferrer"
+            target="_blank"
             href="mailto:gilmar.neo@gmail.com?subject=Assunto do email&body=Conteúdo do email que será preenchido automaticamente"
             className="flex flex-row gap-2 transform transition duration-500 hover:scale-[120%]"
           >

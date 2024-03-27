@@ -4,7 +4,6 @@ import { FiGithub } from "react-icons/fi";
 import { USER } from "libs/user";
 import { calcularIdade } from "./_utils";
 
-
 export default function Introduction({ profileImg }: { profileImg: string }) {
   return (
     <section
@@ -22,11 +21,10 @@ export default function Introduction({ profileImg }: { profileImg: string }) {
               <p className="indent-5">
                 Sou um
                 <a
-                  aria-label="Link para a pesquisa com nome 'pernambuco' no Google"
-                  aria-required
-                  role="link"
                   href="https://www.google.com/search?q=pernambuco"
                   className="hover:underline text-slate-400"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   &nbsp;Pernambucano
                 </a>
@@ -44,28 +42,28 @@ export default function Introduction({ profileImg }: { profileImg: string }) {
 
                 <a
                   aria-label="LinkedIn"
-                  aria-required
-                  role="link"
                   href="https://www.linkedin.com/in/gilmar-jose/"
                   className="transform transition duration-500 hover:scale-[120%]"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <AiOutlineLinkedin />
                 </a>
                 <a
                   aria-label="Github"
-                  aria-required
-                  role="link"
                   href="https://github.com/g42puts"
                   className="transform transition duration-500 hover:scale-[120%]"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <FiGithub />
                 </a>
                 <a
                   aria-label="Instagram"
-                  aria-required
-                  role="link"
                   href="https://www.instagram.com/gilmarneo/"
                   className="transform transition duration-500 hover:scale-[120%]"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <FaInstagram />
                 </a>

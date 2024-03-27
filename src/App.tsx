@@ -43,10 +43,11 @@ function App() {
         {/* End Facebook Metadata */}
 
         {/* Twitter Metadata */}
-        <meta name="twitter:title" content={title} />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="" />
-        <meta name="twitter:image" content="" />
+        <meta property="twitter:title" content={title} />
+        <meta property="twitter:card" content="summary" />
+        <meta property="twitter:description" content={description} />
+        <meta property="twitter:site" content="" />
+        <meta property="twitter:image" content="" />
         {/* End Twitter Metadata */}
       </Helmet>
       <Layout>
