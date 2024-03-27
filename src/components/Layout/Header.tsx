@@ -11,7 +11,6 @@ export default function Header() {
           <div className="flex flex-row sm:text-lg text-sm p-1 w-full sm:justify-center justify-around sm:gap-4">
             <a
               aria-label="Sobre"
-              aria-required
               href="#sobre"
               className="hover:underline"
             >
@@ -19,7 +18,6 @@ export default function Header() {
             </a>
             <a
               aria-label="Habilidades"
-              aria-required
               href="#habilidades"
               className="hover:underline"
             >
@@ -43,7 +41,6 @@ export default function Header() {
             </a> */}
             <a
               aria-label="Contato"
-              aria-required
               href="#contact"
               className="hover:underline"
             >
