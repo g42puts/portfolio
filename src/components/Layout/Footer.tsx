@@ -25,7 +25,7 @@ export default function Footer() {
             href="https://www.linkedin.com/in/gilmar-jose/"
             className="flex flex-row gap-2 transform transition duration-500 hover:scale-[120%]"
           >
-            <img src={LinkedinSvg} className="size-8 -m-1" />
+            <img src={LinkedinSvg} alt="Ícone do Linkedin" className="size-8 -m-1" />
             <span>LinkedIn</span>
           </a>
           <a
@@ -34,7 +34,7 @@ export default function Footer() {
             href="https://www.instagram.com/gilmarneo/"
             className="flex flex-row gap-2 transform transition duration-500 hover:scale-[120%]"
           >
-            <img src={InstagramSvg} className="size-8 -m-1" />
+            <img src={InstagramSvg} alt="Ícone do Instagram" className="size-8 -m-1" />
             <span>Instagram</span>
           </a>
           <a
@@ -52,7 +52,7 @@ export default function Footer() {
             href="mailto:gilmar.neo@gmail.com?subject=Assunto do email&body=Conteúdo do email que será preenchido automaticamente"
             className="flex flex-row gap-2 transform transition duration-500 hover:scale-[120%]"
           >
-            <img src={GmailSvg} className="size-6" />
+            <img src={GmailSvg} alt="Ícone do Gmail" className="size-6" />
             <span>Gmail</span>
           </a>
         </div>

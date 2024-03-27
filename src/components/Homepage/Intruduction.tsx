@@ -59,7 +59,7 @@ export default function Introduction({ profileImg }: { profileImg: string }) {
                 </a>
               </div>
               <figure>
-                <img className="min-w-[144px] size-36 rounded-3xl" src={profileImg} alt="Foto de Gilmar" />
+                <img className="min-w-[144px] size-36 rounded-3xl" src={profileImg} alt="Foto de Perfil de Gilmar" />
               </figure>
             </div>
           </div>

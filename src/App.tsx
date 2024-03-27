@@ -45,8 +45,7 @@ function App() {
         {/* Twitter Metadata */}
         <meta name="twitter:title" content={title} />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="" /> 
-        <meta name="twitter:creator" content="" />
+        <meta name="twitter:site" content="" />
         <meta name="twitter:image" content="" />
         {/* End Twitter Metadata */}
       </Helmet>
