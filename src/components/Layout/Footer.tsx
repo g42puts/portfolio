@@ -20,8 +20,8 @@ export default function Footer() {
             Minhas Redes Sociais
           </h3>
           <a
-            aria-label="linkedin"
-            aria-required="true"
+            aria-label="Link para o perfil do linkedin de Gilmar José"
+            aria-required
             href="https://www.linkedin.com/in/gilmar-jose/"
             className="flex flex-row gap-2 transform transition duration-500 hover:scale-[120%]"
           >
@@ -29,8 +29,8 @@ export default function Footer() {
             <span>LinkedIn</span>
           </a>
           <a
-            aria-label="instagram"
-            aria-required="true"
+            aria-label="Link para o perfil do Instagram de Gilmar José"
+            aria-required
             href="https://www.instagram.com/gilmarneo/"
             className="flex flex-row gap-2 transform transition duration-500 hover:scale-[120%]"
           >
@@ -38,8 +38,8 @@ export default function Footer() {
             <span>Instagram</span>
           </a>
           <a
-            aria-label="github"
-            aria-required="true"
+            aria-label="Link para o perfil do Github de Gilmar José"
+            aria-required
             href="https://www.github.com/g42puts/"
             className="flex flex-row gap-2 transform transition duration-500 hover:scale-[120%]"
           >
@@ -47,12 +47,15 @@ export default function Footer() {
             <span>Github</span>
           </a>
           <a
-            aria-label="gmail"
-            aria-required="true"
+            aria-label="Link para o Gmail ou E-mail de Gilmar José"
+            aria-required
             href="mailto:gilmar.neo@gmail.com?subject=Assunto do email&body=Conteúdo do email que será preenchido automaticamente"
             className="flex flex-row gap-2 transform transition duration-500 hover:scale-[120%]"
           >
-            <img src={GmailSvg} alt="Ícone do Gmail" className="size-6" />
+            <img
+              src={GmailSvg}
+              alt="Ícone do Gmail"
+              className="size-6" />
             <span>Gmail</span>
           </a>
         </div>
@@ -60,13 +63,18 @@ export default function Footer() {
           <h3 className="text-xl font-bold tracking-widest border-b-[1px] border-b-white text-center  mb-5">Meus contatos</h3>
           <div className="flex flex-row items-center align-baseline gap-1">
             <MdLocalPhone size={20} />
-            <span aria-label="+5581995280048" aria-required="true">
+            <span
+              aria-label="+5581995280048"
+              aria-required
+            >
               +55 81 99528 0048
             </span>
           </div>
           <div className="flex flex-row items-center align-baseline gap-1">
             <MdOutlineMailOutline size={20} />
-            <span aria-label="gilmar.neo@gmail.com" aria-required="true">
+            <span
+              aria-label="gilmar.neo@gmail.com"
+              aria-required>
               gilmar.neo@gmail.com
             </span>
           </div>
