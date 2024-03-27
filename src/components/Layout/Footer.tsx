@@ -20,7 +20,6 @@ export default function Footer() {
           </h3>
           <a
             aria-label="LinkedIn"
-            aria-required
             role="link"
             rel="noopener noreferrer"
             target="_blank"
@@ -32,7 +31,6 @@ export default function Footer() {
           </a>
           <a
             aria-label="Instagram"
-            aria-required
             role="link"
             rel="noopener noreferrer"
             target="_blank"
@@ -44,7 +42,6 @@ export default function Footer() {
           </a>
           <a
             aria-label="Github"
-            aria-required
             role="link"
             rel="noopener noreferrer"
             target="_blank"
@@ -56,7 +53,6 @@ export default function Footer() {
           </a>
           <a
             aria-label="Gmail"
-            aria-required
             role="link"
             rel="noopener noreferrer"
             target="_blank"
@@ -76,7 +72,6 @@ export default function Footer() {
             <MdLocalPhone size={20} />
             <span
               aria-label="+55 81 99528 0048"
-              aria-required
             >
               +55 81 99528 0048
             </span>
@@ -85,7 +80,6 @@ export default function Footer() {
             <MdOutlineMailOutline size={20} />
             <span
               aria-label="gilmar.neo@gmail.com"
-              aria-required
             >
               gilmar.neo@gmail.com
             </span>

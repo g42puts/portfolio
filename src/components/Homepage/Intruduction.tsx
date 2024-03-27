@@ -22,7 +22,6 @@ export default function Introduction({ profileImg }: { profileImg: string }) {
                 Sou um
                 <a
                   aria-label="Pernambuco no Google Search"
-                  aria-required
                   role="link"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -45,7 +44,6 @@ export default function Introduction({ profileImg }: { profileImg: string }) {
 
                 <a
                   aria-label="LinkedIn"
-                  aria-required
                   role="link"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -56,7 +54,6 @@ export default function Introduction({ profileImg }: { profileImg: string }) {
                 </a>
                 <a
                   aria-label="Github"
-                  aria-required
                   role="link"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -67,7 +64,6 @@ export default function Introduction({ profileImg }: { profileImg: string }) {
                 </a>
                 <a
                   aria-label="Instagram"
-                  aria-required
                   role="link"
                   rel="noopener noreferrer"
                   target="_blank"

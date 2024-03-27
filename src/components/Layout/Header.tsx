@@ -25,7 +25,6 @@ export default function Header() {
             </a>
             {/* <a
               aria-label="Projetos"
-              aria-required
               href="#projetos"
               className="hover:underline"
             >
@@ -33,7 +32,6 @@ export default function Header() {
             </a> */}
             {/* <a
               aria-label="Certificados"
-              aria-required
               href="#certificados"
               className="hover:underline"
             >
