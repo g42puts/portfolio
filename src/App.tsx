@@ -1,12 +1,14 @@
+import { Helmet } from "react-helmet";
+
+// Libs
+import { Tools } from "libs/tools";
+import fotoPerfil from "/foto_perfil.jpg"
+
 // Components
 import Introduction from "components/Homepage/Intruduction";
 import SkillsContainer from "components/Homepage/SkillsContainer";
-
-import { Tools } from "libs/tools";
-import fotoPerfil from "/foto_perfil.jpg"
 import Layout from "components/Layout/Layout";
 
-import { Helmet } from "react-helmet";
 
 function App() {
   const currentUrl = window.location.toString();
