@@ -24,6 +24,7 @@ export default function Introduction({ profileImg }: { profileImg: string }) {
                 <a
                   aria-label="Link para a pesquisa com nome 'pernambuco' no Google"
                   aria-required
+                  role="link"
                   href="https://www.google.com/search?q=pernambuco"
                   className="hover:underline text-slate-400"
                 >
@@ -42,24 +43,27 @@ export default function Introduction({ profileImg }: { profileImg: string }) {
               <div className="flex flex-row justify-evenly sm:[&_svg]:size-8 [&_svg]:size-8 [&_a]:cursor-pointer text-blue-300">
 
                 <a
-                  aria-label="Link para o perfil do linkedin de Gilmar José"
+                  aria-label="LinkedIn"
                   aria-required
+                  role="link"
                   href="https://www.linkedin.com/in/gilmar-jose/"
                   className="transform transition duration-500 hover:scale-[120%]"
                 >
                   <AiOutlineLinkedin />
                 </a>
                 <a
-                  aria-label="Link para o perfil do Github de Gilmar José"
+                  aria-label="Github"
                   aria-required
+                  role="link"
                   href="https://github.com/g42puts"
                   className="transform transition duration-500 hover:scale-[120%]"
                 >
                   <FiGithub />
                 </a>
                 <a
-                  aria-label="Link para o perfil do Instagram de Gilmar José"
+                  aria-label="Instagram"
                   aria-required
+                  role="link"
                   href="https://www.instagram.com/gilmarneo/"
                   className="transform transition duration-500 hover:scale-[120%]"
                 >

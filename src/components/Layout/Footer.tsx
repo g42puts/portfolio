@@ -1,6 +1,5 @@
 import { FaGithub } from "react-icons/fa";
-import { MdLocalPhone } from "react-icons/md"; // Telefone
-import { MdOutlineMailOutline } from "react-icons/md"; // E-mail
+import { MdLocalPhone, MdOutlineMailOutline } from "react-icons/md"; // Telefone and E-mail
 
 import InstagramSvg from "/instagram_svg.svg";
 import LinkedinSvg from "/linkedin_svg.svg";
@@ -20,8 +19,9 @@ export default function Footer() {
             Minhas Redes Sociais
           </h3>
           <a
-            aria-label="Link para o perfil do linkedin de Gilmar José"
+            aria-label="LinkedIn"
             aria-required
+            role="link"
             href="https://www.linkedin.com/in/gilmar-jose/"
             className="flex flex-row gap-2 transform transition duration-500 hover:scale-[120%]"
           >
@@ -29,8 +29,9 @@ export default function Footer() {
             <span>LinkedIn</span>
           </a>
           <a
-            aria-label="Link para o perfil do Instagram de Gilmar José"
+            aria-label="Instagram"
             aria-required
+            role="link"
             href="https://www.instagram.com/gilmarneo/"
             className="flex flex-row gap-2 transform transition duration-500 hover:scale-[120%]"
           >
@@ -38,8 +39,9 @@ export default function Footer() {
             <span>Instagram</span>
           </a>
           <a
-            aria-label="Link para o perfil do Github de Gilmar José"
+            aria-label="Github"
             aria-required
+            role="link"
             href="https://www.github.com/g42puts/"
             className="flex flex-row gap-2 transform transition duration-500 hover:scale-[120%]"
           >
@@ -47,8 +49,9 @@ export default function Footer() {
             <span>Github</span>
           </a>
           <a
-            aria-label="Link para o Gmail ou E-mail de Gilmar José"
+            aria-label="Gmail"
             aria-required
+            role="link"
             href="mailto:gilmar.neo@gmail.com?subject=Assunto do email&body=Conteúdo do email que será preenchido automaticamente"
             className="flex flex-row gap-2 transform transition duration-500 hover:scale-[120%]"
           >
@@ -64,7 +67,7 @@ export default function Footer() {
           <div className="flex flex-row items-center align-baseline gap-1">
             <MdLocalPhone size={20} />
             <span
-              aria-label="+5581995280048"
+              aria-label="+55 81 99528 0048"
               aria-required
             >
               +55 81 99528 0048
@@ -74,7 +77,8 @@ export default function Footer() {
             <MdOutlineMailOutline size={20} />
             <span
               aria-label="gilmar.neo@gmail.com"
-              aria-required>
+              aria-required
+            >
               gilmar.neo@gmail.com
             </span>
           </div>
