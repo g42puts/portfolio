@@ -11,7 +11,7 @@ export default function Header() {
           <div className="flex flex-row sm:text-lg text-sm p-1 w-full sm:justify-center justify-around sm:gap-4">
             <a
               aria-label="Sobre"
-              aria-required="true"
+              aria-required
               href="#sobre"
               className="hover:underline"
             >
@@ -19,7 +19,7 @@ export default function Header() {
             </a>
             <a
               aria-label="Habilidades"
-              aria-required="true"
+              aria-required
               href="#habilidades"
               className="hover:underline"
             >
@@ -27,7 +27,7 @@ export default function Header() {
             </a>
             {/* <a
               aria-label="Projetos"
-              aria-required="true"
+              aria-required
               href="#projetos"
               className="hover:underline"
             >
@@ -35,7 +35,7 @@ export default function Header() {
             </a> */}
             {/* <a
               aria-label="Certificados"
-              aria-required="true"
+              aria-required
               href="#certificados"
               className="hover:underline"
             >
@@ -43,7 +43,7 @@ export default function Header() {
             </a> */}
             <a
               aria-label="Contato"
-              aria-required="true"
+              aria-required
               href="#contact"
               className="hover:underline"
             >

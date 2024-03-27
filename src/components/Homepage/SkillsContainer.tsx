@@ -21,7 +21,7 @@ export default function SkillsContainer({
           <div className="flex flex-row sm:justify-center justify-center flex-wrap [&_img]:size-20 sm:gap-12 gap-6">
             {Items.sort((a, b) => b.stars - a.stars).map((item, index) => (
               <div key={index} className="flex flex-col group">
-                <i className="p-4 bg-slate-50 rounded-t-2xl shadow-md shadow-slate-300 group-hover:shadow-2xl group-hover:shadow-slate-300 duration-300">
+                <i className="p-4 bg-slate-50 rounded-t-2xl shadow-md shadow-slate-300 group-hover:shadow-2xl group-hover:shadow-slate-300 duration-300" role="img">
                   <img src={item.svg} alt={item.name} />
                 </i>
                 <div className="flex flex-col m-auto px-2 pb-2 bg-slate-800 rounded-b-md group-hover:-translate-y-2 w-[90%] duration-300 rounded-md">
