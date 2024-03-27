@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet";
 
 // Libs
 import { Tools } from "libs/tools";
-import fotoPerfil from "/foto_perfil.jpg"
+import fotoPerfil from "/foto_perfil.webp"
 
 // Components
 import Introduction from "components/Homepage/Intruduction";
