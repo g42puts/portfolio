@@ -15,7 +15,7 @@ export default {
         },
       },
       animation: {
-        typing: 'typing 4s steps(50) forwards',
+        typing: 'typing 3s steps(80) forwards',
       },
     },
   },

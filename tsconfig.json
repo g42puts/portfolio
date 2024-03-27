@@ -28,11 +28,11 @@
     "composite": true,
     "experimentalDecorators": true,
     "rootDir": "./src",
-    "types": ["node"],
-    "typeRoots": ["./node_modules/@types", "src/data/types"],
     "baseUrl": "src",
     "paths": {
       "@types/*": ["./data/types/*"]
-    }
+    },
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types", "src/data/types"],
   }
 }
