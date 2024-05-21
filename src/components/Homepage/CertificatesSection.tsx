@@ -42,16 +42,19 @@ const CertificatesSection = () => {
       id="certificates"
       className="py-10 sm:p-5 p-4 m-auto max-w-[1100px]"
     >
-      <div className="flex sm:w-full w-full flex-row flex-wrap items-center sm:justify-around justify-center gap-6">
-        {Certificados.map((item) => (
-          <div key={item.name} className="flex flex-col max-w-60">
-            <img src={item.img} className="w-60 h-40 object-fill object-center rounded-t-md" onClick={() => setShowImage({ ...showImage, [item.name]: !showImage[item.name] })} alt={item.name} />
-            {showImage[item.name] && <OpenFullImage showImage={showImage} setShowImage={setShowImage} props={item} />}
-            <div className="flex justify-center w-full overflow-hidden">
-              <span className="h-16 text-sm font-semibold tracking-wider whitespace-normal text-center">{item.name}</span>
+      <div className="flex flex-col justify-center gap-10 max-w-[1100px]">
+        <h4 className="float-left left-0 text-2xl mt-4 mb-2 py-10 text-center font-bold tracking-widest">Certificados</h4>
+        <div className="flex sm:w-full w-full flex-row flex-wrap items-center sm:justify-around justify-center gap-6">
+          {Certificados.map((item) => (
+            <div key={item.name} className="flex flex-col max-w-60">
+              <img src={item.img} className="w-60 h-40 object-fill object-center rounded-t-md" onClick={() => setShowImage({ ...showImage, [item.name]: !showImage[item.name] })} alt={item.name} />
+              {showImage[item.name] && <OpenFullImage showImage={showImage} setShowImage={setShowImage} props={item} />}
+              <div className="flex justify-center w-full overflow-hidden">
+                <span className="h-16 text-sm font-semibold tracking-wider whitespace-normal text-center">{item.name}</span>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );
