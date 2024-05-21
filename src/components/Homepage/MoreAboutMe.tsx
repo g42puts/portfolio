@@ -1,4 +1,4 @@
-export default function MoreAboutMe() {
+const MoreAboutMe = () => {
   return (
     <div>
       <h3>Mais sobre mim</h3>
@@ -8,3 +8,5 @@ export default function MoreAboutMe() {
     </div>
   )
 }
+
+export { MoreAboutMe };

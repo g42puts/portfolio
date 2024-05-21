@@ -1,20 +1,20 @@
-import AluraCPPIntro from "/certificados-prints/cpp-avancando-com-cpp-entenda-melhor-a-linguagem.png";
-import AluraCPPIntroESTL from "/certificados-prints/cpp-conhecendo-a-linguagem-e-a-stl.png";
-import AluraLua from "/certificados-prints/lua-do-zero-ao-jogo.png";
-import AluraDjangoAuthFormsAlerts from "/certificados-prints/django-autenticação-de-formularios-e-alerta.png";
-import AluraDjangoCrudS3 from "/certificados-prints/django-crud-e-persistencia-no-s3.png";
-import AluraDjangoPersisDataAdmin from "/certificados-prints/django-persistencia-de-dados-e-admin.png";
-import AluraDjangoBoasPraticas from "/certificados-prints/django-templates-e-boas-praticas.png";
-import AluraPythonTestes from "/certificados-prints/python-e-tdd-explorando-testes-unitarios.png";
-import AluraPythonParaData from "/certificados-prints/python-para-data-science.png";
-import AluraPythonParaDataNumpy from "/certificados-prints/python-para-data-science-linguagem-e-numpy.png";
+import AluraCPPIntro from "/certificados-prints/cpp-avancando-com-cpp-entenda-melhor-a-linguagem.webp";
+import AluraCPPIntroESTL from "/certificados-prints/cpp-conhecendo-a-linguagem-e-a-stl.webp";
+import AluraLua from "/certificados-prints/lua-do-zero-ao-jogo.webp";
+import AluraDjangoAuthFormsAlerts from "/certificados-prints/django-autenticação-de-formularios-e-alerta.webp";
+import AluraDjangoCrudS3 from "/certificados-prints/django-crud-e-persistencia-no-s3.webp";
+import AluraDjangoPersisDataAdmin from "/certificados-prints/django-persistencia-de-dados-e-admin.webp";
+import AluraDjangoBoasPraticas from "/certificados-prints/django-templates-e-boas-praticas.webp";
+import AluraPythonTestes from "/certificados-prints/python-e-tdd-explorando-testes-unitarios.webp";
+import AluraPythonParaData from "/certificados-prints/python-para-data-science.webp";
+import AluraPythonParaDataNumpy from "/certificados-prints/python-para-data-science-linguagem-e-numpy.webp";
 
-import BradescoPOOPython from "/certificados-prints/bradesco-desenvolvimento-orientado-a-objetos-linguagem-python.png";
-import BradescoLinguagemProg from "/certificados-prints/bradesco-linguagem-de-programacao-basico.png";
+import BradescoPOOPython from "/certificados-prints/bradesco-desenvolvimento-orientado-a-objetos-linguagem-python.webp";
+import BradescoLinguagemProg from "/certificados-prints/bradesco-linguagem-de-programacao-basico.webp";
 
-import IBMDataScience101 from "/certificados-prints/data-science-101-ibm.png";
-import DioFundamentosNuvem from "/certificados-prints/dio-fundamentos-de-computacao-em-nuvem-na-aws.png";
-import FlaskWebAppPython from "/certificados-prints/flask-crie-uma-webapp-com-python.png";
+import IBMDataScience101 from "/certificados-prints/data-science-101-ibm.webp";
+import DioFundamentosNuvem from "/certificados-prints/dio-fundamentos-de-computacao-em-nuvem-na-aws.webp";
+import FlaskWebAppPython from "/certificados-prints/flask-crie-uma-webapp-com-python.webp";
 
 export const Certificados = [
   { name: "Avançando com C++: Entenda melhor a linguagem", org: "Alura", img: AluraCPPIntro },

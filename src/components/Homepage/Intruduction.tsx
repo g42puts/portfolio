@@ -1,10 +1,13 @@
 import { FaInstagram } from "react-icons/fa";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";
-import { USER } from "libs/user";
+
+import { USER } from "@/libs/user";
 import { calcularIdade } from "./_utils";
 
-export default function Introduction({ profileImg }: { profileImg: string }) {
+import profileImg from "/foto_perfil.webp"
+
+const Introduction = () => {
   return (
     <section
       id="sobre"
@@ -41,7 +44,6 @@ export default function Introduction({ profileImg }: { profileImg: string }) {
           <div className="flex sm:flex-row sm:mt-4 sm:gap-24 gap-10">
             <div className="flex flex-col sm:gap-6 gap-4">
               <div className="flex flex-row justify-evenly sm:[&_svg]:size-8 [&_svg]:size-8 [&_a]:cursor-pointer text-blue-300">
-
                 <a
                   aria-label="LinkedIn"
                   role="link"
@@ -83,3 +85,5 @@ export default function Introduction({ profileImg }: { profileImg: string }) {
     </section>
   )
 }
+
+export { Introduction };

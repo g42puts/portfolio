@@ -1,4 +1,4 @@
-export default function Header() {
+const Header = () => {
   return (
     <header className="">
       <div className="fixed bg-neutral-900 bg-opacity-90 w-full text-white">
@@ -50,3 +50,5 @@ export default function Header() {
     </header>
   )
 }
+
+export { Header };

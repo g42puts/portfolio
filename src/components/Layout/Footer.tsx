@@ -5,7 +5,7 @@ import InstagramSvg from "/instagram_svg.svg";
 import LinkedinSvg from "/linkedin_svg.svg";
 import GmailSvg from "/gmail_svg.svg";
 
-export default function Footer() {
+const Footer = () => {
   return (
     <footer
       id="contact"
@@ -89,3 +89,5 @@ export default function Footer() {
     </footer>
   )
 }
+
+export { Footer };

@@ -1,5 +1,5 @@
 {
-  "include": ["src/**/*"],
+  "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }],
 
   "compilerOptions": {
@@ -27,12 +27,12 @@
     "allowJs": true,
     "composite": true,
     "experimentalDecorators": true,
-    "rootDir": "./src",
-    "baseUrl": "src",
+
+    "baseUrl": ".",
     "paths": {
-      "@types/*": ["./data/types/*"]
+      "@/*": ["./src/*"]
     },
     "types": ["node"],
-    "typeRoots": ["./node_modules/@types", "src/data/types"],
+    "typeRoots": ["./node_modules/@types", "src/data/types"]
   }
 }
