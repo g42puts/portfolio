@@ -4,7 +4,7 @@ export interface ITools {
   svg: string;
 }
 
-const SkillsContainer = ({ h4Text, Items }: { h4Text: string; Items: ITools[] }) => {
+function SkillsContainer({ h4Text, Items }: { h4Text: string; Items: ITools[] }) {
   const sortedItens = Items.sort((a, b) => b.stars - a.stars);
 
   return (

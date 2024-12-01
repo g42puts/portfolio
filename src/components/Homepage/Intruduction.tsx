@@ -33,11 +33,12 @@ const Introduction = () => {
                 >
                   &nbsp;Pernambucano
                 </a>
-                &nbsp;de {calcularIdade(USER.BIRTH_DATE)} anos, estudante do curso {USER.GRADUATION_COURSE} na faculdade {USER.GRADUATION_SCHOOL}, atualmente no 2° período.
+                &nbsp;de {calcularIdade(USER.BIRTH_DATE)} anos, estudante do curso {USER.GRADUATION_COURSE} na faculdade {USER.GRADUATION_SCHOOL}, atualmente no 3° período.
               </p>
               <p className="indent-5">
                 Atualmente venho me dedicado a aprender mais sobre o Frontend, mas também adoro o Backend.
               </p>
+
             </div>
           </div>
 

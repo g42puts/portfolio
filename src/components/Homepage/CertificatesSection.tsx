@@ -29,7 +29,7 @@ function OpenFullImage({
   );
 }
 
-const CertificatesSection = () => {
+function CertificatesSection() {
   const [showImage, setShowImage] = useState(() => (
     Certificados.reduce((acc, item) => {
       acc[item.name] = false;
@@ -47,7 +47,14 @@ const CertificatesSection = () => {
         <div className="flex sm:w-full w-full flex-row flex-wrap items-center sm:justify-around justify-center gap-6">
           {Certificados.map((item) => (
             <div key={item.name} className="flex flex-col max-w-60">
-              <img src={item.img} className="w-60 h-40 object-fill object-center rounded-t-md" onClick={() => setShowImage({ ...showImage, [item.name]: !showImage[item.name] })} alt={item.name} />
+              <img
+                src={item.img}
+                alt={item.name}
+                onClick={() => setShowImage(
+                  { ...showImage, [item.name]: !showImage[item.name] }
+                )}
+                className="w-60 h-40 object-fill object-center rounded-t-md"
+              />
               {showImage[item.name] && <OpenFullImage showImage={showImage} setShowImage={setShowImage} props={item} />}
               <div className="flex justify-center w-full overflow-hidden">
                 <span className="h-16 text-sm font-semibold tracking-wider whitespace-normal text-center">{item.name}</span>

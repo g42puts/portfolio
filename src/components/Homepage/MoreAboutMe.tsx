@@ -1,4 +1,4 @@
-const MoreAboutMe = () => {
+function MoreAboutMe() {
   return (
     <div>
       <h3>Mais sobre mim</h3>

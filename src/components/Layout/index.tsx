@@ -3,7 +3,7 @@ import { ReactNode } from "react"
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 
-const Layout = ({ children }: { children: ReactNode }) => {
+function Layout({ children }: { children: ReactNode }) {
   return (
     <>
       <Header />

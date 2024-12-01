@@ -1,4 +1,4 @@
-const Header = () => {
+function Header() {
   return (
     <header className="">
       <div className="fixed bg-neutral-900 bg-opacity-90 w-full text-white">

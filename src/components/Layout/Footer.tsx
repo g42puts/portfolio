@@ -5,7 +5,7 @@ import InstagramSvg from "/instagram_svg.svg";
 import LinkedinSvg from "/linkedin_svg.svg";
 import GmailSvg from "/gmail_svg.svg";
 
-const Footer = () => {
+function Footer() {
   return (
     <footer
       id="contact"
@@ -16,7 +16,7 @@ const Footer = () => {
       >
         <div className="flex sm:flex-col flex-col flex-wrap items-start gap-4 sm:w-60">
           <h3 className="text-xl font-bold tracking-widest border-b-[1px] border-b-white text-center mb-5">
-            Minhas Redes Sociais
+            Redes Sociais
           </h3>
           <a
             aria-label="LinkedIn"
@@ -67,7 +67,9 @@ const Footer = () => {
           </a>
         </div>
         <div className="flex flex-col gap-2">
-          <h3 className="text-xl font-bold tracking-widest border-b-[1px] border-b-white text-center  mb-5">Meus contatos</h3>
+          <h3 className="text-xl font-bold tracking-widest border-b-[1px] border-b-white text-center  mb-5">
+            Formas de Contato
+          </h3>
           <div className="flex flex-row items-center align-baseline gap-1">
             <MdLocalPhone size={20} />
             <span

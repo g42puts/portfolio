@@ -1,7 +1,7 @@
 import { Tools } from "@/libs/tools";
 import { SkillsContainer } from "./SkillsContainer";
 
-const SkillsSection = () => {
+function SkillsSection() {
   return (
     <section
       id="habilidades"
