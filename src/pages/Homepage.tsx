@@ -13,7 +13,7 @@ export default function Homepage() {
   return (
     <Layout>
       <main>
-        <DiscordPresenceIframe />
+        {/* <DiscordPresenceIframe /> */}
         <Introduction />
         <SkillsSection />
         <CertificatesSection />
