@@ -22,7 +22,6 @@ const Introduction = () => {
             </div>
             <div className="bg-emerald-100 bg-opacity-5 p-4 rounded-md sm:w-[400px] m-auto text-base">
               <p className="indent-5">
-                Sou um
                 <a
                   aria-label="Pernambuco no Google Search"
                   role="link"
@@ -31,12 +30,12 @@ const Introduction = () => {
                   href="https://www.google.com/search?q=pernambuco"
                   className="hover:underline text-slate-400"
                 >
-                  &nbsp;Pernambucano
+                  {" "}Pernambucano
                 </a>
-                &nbsp;de {calcularIdade(USER.BIRTH_DATE)} anos, estudante do curso {USER.GRADUATION_COURSE} na faculdade {USER.GRADUATION_SCHOOL}, atualmente no 3° período.
+                &nbsp;de {calcularIdade(USER.BIRTH_DATE)} anos, cursando {USER.GRADUATION_COURSE} na faculdade {USER.GRADUATION_SCHOOL}, atualmente no 3° período.
               </p>
               <p className="indent-5">
-                Atualmente venho me dedicado a aprender mais sobre o Frontend, mas também adoro o Backend.
+                Desenvolvo sistemas, construo e estilizo páginas, um desenvolvedor Full Stack com foco no backend. Além de desenvolver, também me interesso pelo desenvolvimento pessoal e crescimento do time, colaborando para um ambiente mais colaborativo.
               </p>
 
             </div>
